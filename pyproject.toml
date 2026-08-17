@@ -1,0 +1,10 @@
+[project]
+name = "butterfly-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "matplotlib>=3.5.3",
+    "opencv-python>=5.0.0.93",
+]
