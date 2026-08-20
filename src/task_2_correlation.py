@@ -49,7 +49,7 @@ def main():
     v1 = cv2.imread(os.path.join(work_dir, files[ind_i]), cv2.IMREAD_COLOR)
     v2 = cv2.imread(os.path.join(work_dir, files[ind_j]), cv2.IMREAD_COLOR)
 
-    plt.figure(figsize=(8, 16))
+    plt.figure()
     plt.subplot(2, 1, 1)
     plt.imshow(cv2.cvtColor(v1, cv2.COLOR_BGR2RGB))
     plt.subplot(2, 1, 2)

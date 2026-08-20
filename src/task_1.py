@@ -14,7 +14,7 @@ def main():
     plt.subplot(2, 1, 1)
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
     plt.subplot(2, 1, 2)
-    plt.imshow(cv2.cvtColor(blurred_img, cv2.IMREAD_GRAYSCALE))
+    plt.imshow(blurred_img, cmap = 'gray')
     plt.show()
 
 if __name__ == "__main__":
