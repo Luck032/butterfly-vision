@@ -31,7 +31,8 @@ The first approach compares images at the pixel level using standard statistical
 - mean squared error (MSE),
 - cosine similarity between flattened image vectors.
 
-The second approach uses a pretrained **ResNet18** as a feature extractor. The final fully connected classification layer is removed, resulting in a 512-dimensional feature representation for each image. Cosine similarity is then calculated between the extracted feature vectors.
+The second approach uses a pretrained **ResNet18** as a feature extractor. The final fully connected classification layer is removed, resulting in a 512-dimensional feature representation for each image. Cosine similarity is then calculated between the extracted feature vectors. 
+**Note:** This approach was included as an exploratory feature-based alternative to the pixel-level methods. Since the extracted embeddings represent higher-level visual characteristics rather than exact pixel correspondence, it was treated as a complementary analysis rather than the primary duplicate-detection method.
 
 ## Installation
 
