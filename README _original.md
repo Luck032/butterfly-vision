@@ -8,7 +8,7 @@ The assignment is intended to check basic Computer Vision (CV) skills. The assig
 ## Project Structure
 The repository containe 5 Python scripts as proposed solutions for two given tasks. The specific task for which is scrit intended is indicated in the name of file. Please note that for the Task 1, there is only one avaliable scripts, as the soluction is straight forwarad, as for the Task 2 there are foud different implementations, where specific implemented method is inicated as *task_2_xxxx.py* where *xxxx* indicate the name of method.
 The repo contains following scripts:
- - [task_1.py](link1),
+ - [task_1.py](https://github.com/Luck032/butterfly-vision/edit/main/README%20_original.md#:~:text=src-,task_1,-.py),
  - [task_2_correlation.py](link2),
  - [task_2_mse.py](link3),
  - [task_2_cosine.py](link4), and
